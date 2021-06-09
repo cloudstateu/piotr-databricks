@@ -3,7 +3,7 @@ print("jakis noytebook")
 
 # COMMAND ----------
 
-print("commit 2")
+print("commit 2 zmiana")
 
 # COMMAND ----------
 
