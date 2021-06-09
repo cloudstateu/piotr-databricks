@@ -20,4 +20,4 @@ jobs:
 
     - name: Import prod notebook
       run: |
-        databricks workspace import -l PYTHON ${{ github.workspace }}/notebooks/prod1.py /Prod/prod1
+        databricks workspace import -l PYTHON -o ${{ github.workspace }}/notebooks/prod1.py /Prod/prod1
