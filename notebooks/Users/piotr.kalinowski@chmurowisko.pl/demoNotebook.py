@@ -15,3 +15,8 @@ y = 4
 
 # COMMAND ----------
 
+z = x + y
+print(z)
+
+# COMMAND ----------
+
