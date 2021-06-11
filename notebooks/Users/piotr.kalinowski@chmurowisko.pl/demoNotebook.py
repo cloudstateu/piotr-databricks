@@ -1,5 +1,5 @@
 # Databricks notebook source
-print(y)
+print("external change")
 
 # COMMAND ----------
 
