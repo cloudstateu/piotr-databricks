@@ -22,7 +22,7 @@ jobs:
     - name: Import prod notebook
       run: |
         databricks workspace import -l PYTHON -o ${{ github.workspace }}/notebooks/prod1.py /Prod/prod1
-    - script: |
+    - name: 'Run Python Unit Tests'
+      run: |
         python -m pytest ${{ github.workspace }}/uTests/test_1.py
-      displayName: 'Run Python Unit Tests'
 
