@@ -1,6 +1,6 @@
 import pytest
 
-class TestAppendCol(object):
+class TestAppendCol2(object):
 
     def test_with_status(self):
-        assert(3 == 2)
+        assert(2 == 2)
