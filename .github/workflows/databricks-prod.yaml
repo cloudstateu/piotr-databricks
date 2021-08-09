@@ -24,6 +24,6 @@ jobs:
         python -m pytest ${{ github.workspace }}/uTests/*
     - name: Import prod notebooks
       run: |
-        databricks workspace import_dir -o ${{ github.workspace }}/notebooks/* /Prod
+        databricks workspace import_dir -o ${{ github.workspace }}/notebooks /Prod
     
 
